@@ -28,6 +28,10 @@
     width: 200px;
 }
 
+.navbar-menu {
+    padding-right: 20px;
+}
+
 .navbar-link {
     color: var(--white);
     text-decoration: none;
