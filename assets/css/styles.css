@@ -1,0 +1,36 @@
+:root {
+    --red: #f95103;
+    --black: #000;
+    --white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background: var(--black);
+    height: 80px;
+    padding: 0.5rem calc((100vw - 1200px)/ 2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-menu {
+    padding-right: 20px;
+}
+
+.navbar-link {
+    color: var(--white);
+    text-decoration: none;
+    padding: 0rem .5rem;
+}
+
+.navbar-link:hover {
+    color: var(--red);
+}
