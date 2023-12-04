@@ -1,5 +1,5 @@
 :root {
-    --red: #f95103;
+    --orange: #f95103;
     --black: #000;
     --white: #fff;
 }
@@ -32,5 +32,64 @@
 }
 
 .navbar-link:hover {
-    color: var(--red);
+    color: var(--orange);
+}
+
+@media screen and (max-width: 768px) {
+    body.active {
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    
+    .navbar-link {
+        display: flex;
+        align-items: center;
+        justify-content:  center;
+    }
+
+    .navbar-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 100px);
+        position: absolute;
+        width: 100%;
+        top: -1000px;
+    }
+
+    .navbar-menu.active {
+        top: 100%;
+        opacity: 1;
+        z-index: 99;
+        height: 30vh;
+        font-size: 1.5rem;
+        background: var(--black);
+    }
+
+    .navbar-toggle .bar{
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: var(--white);
+        display: block;
+    }
+
+    #mobile-menu {
+        position: absolute;
+        top: 15%;
+        right: 5%;
+        transform: translate(5%, 20%);
+        cursor: pointer;
+        margin-top: 8px;
+    }
+
+    #mobile-menu.is-active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    #mobile-menu.is-active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    #mobile-menu.is-active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
