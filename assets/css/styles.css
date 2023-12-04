@@ -11,6 +11,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/*---- Navbar ----*/
+
 .navbar {
     background: var(--black);
     height: 80px;
@@ -21,8 +23,9 @@
     position: relative;
 }
 
-.navbar-menu {
-    padding-right: 20px;
+.navbar-logo {
+    height: 72px; 
+    width: 250px;
 }
 
 .navbar-link {
@@ -60,7 +63,7 @@
         top: 100%;
         opacity: 1;
         z-index: 99;
-        height: 30vh;
+        height: 24vh;
         font-size: 1.5rem;
         background: var(--black);
     }
@@ -92,4 +95,28 @@
     #mobile-menu.is-active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar-logo {
+        height: 60px; 
+        width: 190px;
+    }
+}
+
+/*---- Hero ----*/
+
+.hero {
+    background: url('../images/plane-sunset.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.hero-content {
+    padding: 3rem 1rem;
 }
