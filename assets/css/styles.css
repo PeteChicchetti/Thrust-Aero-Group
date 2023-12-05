@@ -11,6 +11,16 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-size: 21px;
+    padding: 10px;
+    line-height: 1.2;
+}
+
+ul {
+    margin-left: 50px;
+}
+
 /*---- Navbar ----*/
 
 .navbar {
@@ -139,4 +149,68 @@
         height: 60px;
         width: 145px;
     }
+}
+
+/*---- Info Section ----*/
+
+.info-container {
+    max-width: 1200px;
+    margin: auto;
+    border: 2px solid var(--orange);
+}
+
+.info-header {
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 32px;
+    border: 2px solid blue;
+}
+
+.info-box1,
+.info-box3,
+.info-box5 {
+    display: flex;
+    padding: 0 20px;
+    border: 2px solid green;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.box1-text,
+.box2-text,
+.box3-text,
+.box4-text,
+.box5-text,
+.box6-text {
+    max-width: 700px;
+    margin: 10px 20px;
+    border: 2px solid red;
+}
+
+.box1-img, 
+.box2-img,
+.box3-img,
+.box4-img,
+.box5-img,
+.box6-img {
+    min-width: 300px;
+    margin: 10px 20px;
+    border: 2px solid red;
+}
+
+.info-box2,
+.info-box4,
+.info-box6 {
+    display: flex;
+    padding: 0 20px;
+    border: 2px solid green;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cert-container {
+    text-align: center;
+    padding: 20px;
 }
