@@ -230,8 +230,14 @@ li {
     font-weight: 700;
 }
 
-.plane-icon {
+.plane-icon,
+.engine-icon {
     filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
+}
+
+.engine-icon {
+    height: 20px;
+    width: auto;
 }
 
 .box1-img,
