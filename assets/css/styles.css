@@ -252,6 +252,24 @@ li {
     height: auto;
 }
 
+/*---- Footer ----*/
+
+footer {
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+}
+
+.address,
+.copyright {
+    font-size: 14px;
+}
+
+span,
+.copyright{
+    color: var(--orange);
+}
+
 @media screen and (max-width: 1185px) {
     .box1-img,
     .box2-img,
