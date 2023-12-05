@@ -17,7 +17,8 @@ p {
     line-height: 1.2;
 }
 
-h2 {
+h2,
+h3 {
     text-align: center;
     margin: 15px 0;
 }
@@ -253,7 +254,12 @@ li {
 
 @media screen and (max-width: 1185px) {
     .box1-img,
-    .box2-img {
+    .box2-img,
+    .box3-img,
+    .box4-img,
+    .box5-img,
+    .box6-img,
+    .certification {
         max-width: 90%;
         height: auto;
     }
@@ -263,7 +269,8 @@ li {
     .box3-text,
     .box4-text,
     .box5-text,
-    .box6-text {
+    .box6-text,
+    .certification {
         max-width: 90%;
         margin: 10px 20px;
     }
@@ -285,6 +292,16 @@ li {
     .plane-icon {
         width: 13px;
     }
+
+    .info-box1,
+    .info-box2,
+    .info-box3,
+    .info-box4,
+    .info-box5,
+    .info-box6 {
+        margin: 25px 0;
+    }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -333,8 +350,7 @@ li {
     .box3-img,
     .box4-img,
     .box5-img,
-    .box6-img,
-    .certification {
+    .box6-img {
         max-width: 90%;
         height: auto;
     }
