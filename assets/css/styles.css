@@ -18,12 +18,14 @@ p {
 }
 
 ul {
-    margin-left: 50px;
+    margin: 10px 0 10px  50px;
     list-style-type: none;
+    line-height: 1.6;
 }
 
 li {
     font-size: 20px;
+    font-weight: 600;
 }
 
 /*---- Navbar ----*/
@@ -176,18 +178,17 @@ li {
 .info-box3,
 .info-box5 {
     display: flex;
-    padding: 0 20px;
     border: 2px solid green;
     justify-content: center;
     flex-wrap: wrap-reverse;
     align-items: center;
+    width: 100%;
 }
 
 .info-box2,
 .info-box4,
 .info-box6 {
     display: flex;
-    padding: 0 20px;
     border: 2px solid green;
     justify-content: center;
     flex-wrap: wrap;
@@ -201,7 +202,7 @@ li {
 .box4-text,
 .box5-text,
 .box6-text {
-    max-width: 700px;
+    max-width: 500px;
     margin: 10px 20px;
     border: 2px solid red;
 }
@@ -212,7 +213,6 @@ li {
 .box4-img,
 .box5-img,
 .box6-img {
-    min-width: 300px;
     margin: 10px 20px;
     border: 2px solid red;
 }
@@ -222,6 +222,108 @@ li {
     padding: 20px;
 }
 
+.list-title {
+    font-weight: 700;
+}
+
 .plane-icon {
     filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
+}
+
+.box1-img {
+    max-width: 50%;
+    height: auto;
+}
+
+@media screen and (max-width: 1185px) {
+    .box1-img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .box1-text,
+    .box2-text,
+    .box3-text,
+    .box4-text,
+    .box5-text,
+    .box6-text {
+        max-width: 90%;
+        margin: 10px 20px;
+        border: 2px solid red;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    p {
+        font-size: 18px;
+    }
+
+    ul {
+        margin: 10px 0 10px  30px;
+    }
+    
+    li {
+        font-size: 16px;
+    }
+
+    .plane-icon {
+        width: 13px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    p {
+        font-size: 16px;
+    }
+
+    ul {
+        margin: 10px 0 10px  30px;
+    }
+    
+    li {
+        font-size: 14px;
+    }
+
+    .plane-icon {
+        width: 12px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    p {
+        font-size: 14px;
+    }
+
+    ul {
+        margin: 8px 0 8px  10px;
+    }
+    
+    li {
+        font-size: 13px;
+    }
+
+    .plane-icon {
+        width: 11px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .info-header {
+        font-size: 24px;
+    }
+    
+    .box1-img {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .box1-text,
+    .box2-text,
+    .box3-text,
+    .box4-text,
+    .box5-text,
+    .box6-text {
+        max-width: 90%;
+        margin: 0;
+    }
 }
