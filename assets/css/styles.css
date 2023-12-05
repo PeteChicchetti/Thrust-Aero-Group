@@ -19,6 +19,11 @@ p {
 
 ul {
     margin-left: 50px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px;
 }
 
 /*---- Navbar ----*/
@@ -163,7 +168,8 @@ ul {
     text-align: center;
     padding: 60px 20px;
     font-size: 32px;
-    border: 2px solid blue;
+    background-color: var(--black);
+    color: var(--white);
 }
 
 .info-box1,
@@ -176,6 +182,18 @@ ul {
     flex-wrap: wrap-reverse;
     align-items: center;
 }
+
+.info-box2,
+.info-box4,
+.info-box6 {
+    display: flex;
+    padding: 0 20px;
+    border: 2px solid green;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 
 .box1-text,
 .box2-text,
@@ -199,18 +217,11 @@ ul {
     border: 2px solid red;
 }
 
-.info-box2,
-.info-box4,
-.info-box6 {
-    display: flex;
-    padding: 0 20px;
-    border: 2px solid green;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .cert-container {
     text-align: center;
     padding: 20px;
+}
+
+.plane-icon {
+    filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
 }
