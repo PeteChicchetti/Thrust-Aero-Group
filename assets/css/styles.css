@@ -29,7 +29,7 @@ h3 {
 }
 
 ul {
-    margin: 10px 0 10px  50px;
+    margin: 10px 0 10px 50px;
     list-style-type: none;
     line-height: 1.6;
 }
@@ -164,6 +164,10 @@ li {
 
 .list-title {
     font-weight: 700;
+}
+
+.engine-list {
+    margin-bottom: 40px;
 }
 
 .plane-icon,
