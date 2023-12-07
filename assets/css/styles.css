@@ -13,14 +13,14 @@
 
 p {
     font-size: 21px;
-    padding: 10px;
+    padding: 10px 0;
     line-height: 1.2;
     font-family: 'Saira', sans-serif;
 }
 
 h2,
 h3 {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     margin-bottom: -10px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 50px;
@@ -230,7 +230,7 @@ li {
 
 .cert-container {
     text-align: center;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .list-title {
@@ -313,10 +313,14 @@ span,
     .box3-text,
     .box4-text,
     .box5-text,
-    .box6-text,
-    .certification {
+    .box6-text {
         max-width: 90%;
         margin: 10px 20px;
+    }
+    
+    .certification {
+        max-width: 90%;
+        margin: 10px 0;
     }
 }
 
