@@ -121,8 +121,7 @@ li {
 }
 
 .info-box1,
-.info-box3,
-.info-box5 {
+.info-box3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -132,8 +131,7 @@ li {
 }
 
 .info-box2,
-.info-box4,
-.info-box6 {
+.info-box4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -146,9 +144,7 @@ li {
 .box1-text,
 .box2-text,
 .box3-text,
-.box4-text,
-.box5-text,
-.box6-text {
+.box4-text {
     max-width: 500px;
     margin: 10px 20px;
 }
@@ -156,9 +152,7 @@ li {
 .box1-img, 
 .box2-img,
 .box3-img,
-.box4-img,
-.box5-img,
-.box6-img {
+.box4-img {
     margin: 10px 20px;
 }
 
@@ -196,14 +190,12 @@ li {
 .box2-img,
 .box3-img,
 .box4-img,
-.box5-img,
-.box6-img,
 .certification {
     max-width: 50%;
     height: auto;
 }
 
-.box6-img {
+.box4-img {
     max-width: 35%;
     height: auto;
 }
@@ -234,8 +226,6 @@ span,
     .box2-img,
     .box3-img,
     .box4-img,
-    .box5-img,
-    .box6-img,
     .certification {
         max-width: 90%;
         height: auto;
@@ -249,9 +239,7 @@ span,
     .box1-text,
     .box2-text,
     .box3-text,
-    .box4-text,
-    .box5-text,
-    .box6-text {
+    .box4-text {
         max-width: 90%;
         margin: 10px 20px;
     }
@@ -352,9 +340,7 @@ span,
     .info-box1,
     .info-box2,
     .info-box3,
-    .info-box4,
-    .info-box5,
-    .info-box6 {
+    .info-box4 {
         margin: 25px 0;
     }
 
@@ -442,9 +428,7 @@ span,
     .box1-img,
     .box2-img,
     .box3-img,
-    .box4-img,
-    .box5-img,
-    .box6-img {
+    .box4-img {
         max-width: 90%;
         height: auto;
     }
@@ -452,9 +436,7 @@ span,
     .box1-text,
     .box2-text,
     .box3-text,
-    .box4-text,
-    .box5-text,
-    .box6-text {
+    .box4-text {
         max-width: 90%;
         margin: 0;
     }
