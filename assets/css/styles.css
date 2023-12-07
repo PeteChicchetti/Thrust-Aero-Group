@@ -192,7 +192,7 @@ li {
 }
 
 .box4-img {
-    max-width: 35%;
+    max-width: 40%;
     height: auto;
 }
 
@@ -221,14 +221,13 @@ span,
     .box1-img,
     .box2-img,
     .box3-img,
-    .box4-img,
     .certification {
         max-width: 90%;
         height: auto;
     }
 
-    .box6-img {
-        max-width: 40%;
+    .box4-img {
+        max-width: 60%;
         height: auto;
     }
 
