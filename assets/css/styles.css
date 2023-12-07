@@ -112,14 +112,6 @@ li {
     margin: auto;
 }
 
-.info-header {
-    text-align: center;
-    padding: 60px 20px;
-    font-size: 32px;
-    background-color: var(--black);
-    color: var(--white);
-}
-
 .info-box1,
 .info-box3 {
     display: flex;
@@ -425,10 +417,6 @@ span,
 }
 
 @media screen and (max-width: 300px) {
-    .info-header {
-        font-size: 24px;
-    }
-    
     .box1-img,
     .box2-img,
     .box3-img,
