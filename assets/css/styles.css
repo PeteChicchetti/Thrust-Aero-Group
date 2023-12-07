@@ -32,6 +32,9 @@ ul {
 li {
     font-size: 20px;
     font-weight: 600;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
 }
 
 /*---- Navbar ----*/
@@ -234,11 +237,21 @@ li {
 .plane-icon,
 .engine-icon {
     filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
+    margin-right: 5px;
+}
+
+.plane-icon {
+    height: 20px;
+    width: auto;
 }
 
 .engine-icon {
-    height: 20px;
+    height: 30px;
     width: auto;
+}
+
+.engine-items {
+    margin-bottom: 5px;
 }
 
 .box1-img,
