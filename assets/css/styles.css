@@ -349,6 +349,10 @@ span,
     .tagline {
         font-size: 35px;
     }
+
+    .about-tagline {
+        font-size: 22px;
+    }
 }
 
 
@@ -383,6 +387,10 @@ span,
     .tagline {
         font-size: 30px;
     }
+
+    .about-tagline {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -393,7 +401,10 @@ span,
 
     .navbar-menu {
         grid-template-rows: repeat(2, 70px);
+    }
 
+    .about-tagline {
+        font-size: 15px;
     }
 }
 
@@ -426,6 +437,10 @@ span,
     }
     .tagline {
         font-size:22px;
+    }
+
+    .about-tagline {
+        font-size: 11px;
     }
 }
 
