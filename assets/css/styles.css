@@ -107,7 +107,8 @@ li {
 
 /*---- Info Section ----*/
 
-.info-container {
+.info-container,
+.about-container {
     max-width: 1200px;
     margin: auto;
 }
@@ -195,6 +196,12 @@ li {
     max-width: 40%;
     height: auto;
 }
+
+/*---- About Page ----*/
+.p1 {
+    font-size: 30px;
+}
+
 
 /*---- Footer ----*/
 
