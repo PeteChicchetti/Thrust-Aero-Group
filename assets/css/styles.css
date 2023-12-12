@@ -245,6 +245,30 @@ li {
     margin: 40px 10px;
 }
 
+.contact-container {
+    margin: 10px 10px 30px 10px;
+}
+
+.contact-title {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    border-bottom: 2px solid var(--black);
+    margin-bottom: 5px;
+    font-size: 38px;
+}
+
+.address,
+.email,
+.phone {
+    font-family: 'Saira', sans-serif;
+    padding-right: 15px;
+}
+
+.email-span,
+.phone-span {
+    color: var(--black);
+}
+
+
 
 
 /*---- Footer ----*/
