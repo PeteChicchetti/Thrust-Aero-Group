@@ -108,7 +108,8 @@ li {
 /*---- Info and About Section ----*/
 
 .info-container,
-.about-container {
+.about-container,
+.credit-container {
     max-width: 1200px;
     margin: auto;
 }
@@ -288,6 +289,29 @@ li {
     color: var(--orange);
 }
 
+/*---- Credits ----*/
+.credit-info {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.credit-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.name-credit,
+.website-name {
+    font-family: 'Saira', sans-serif;
+    color: var(--orange);
+    text-decoration: none;
+}
+
+.name-credit::after,
+.website-name::after {
+    color: var(--orange);
+}
 
 /*---- Footer ----*/
 
@@ -315,6 +339,20 @@ span,
 .footer-phone::after {
     color: var(--orange);
 }
+
+.dots {
+    color: var(--white);
+    font-family: 'Saira', sans-serif;
+}
+.site-credit {
+    font-family: 'Saira', sans-serif;
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.site-credit::after {
+    color: var(--orange);
+} 
 
 
 /*---- Media ----*/
