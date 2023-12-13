@@ -164,7 +164,9 @@ li {
 }
 
 .plane-icon,
-.engine-icon {
+.engine-icon,
+.email-icon,
+.phone-icon {
     filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
     margin-right: 5px;
 }
@@ -259,20 +261,24 @@ li {
 .address,
 .email,
 .phone {
-    font-family: 'Saira', sans-serif;
-    padding-right: 15px;
+    margin-right: 15px;
     text-decoration: none;
+    display: inline-block;
 }
 
 .email-span,
 .phone-span {
     color: var(--black);
+    display: flex;
+    align-items: center;
+    font-family: 'Saira', sans-serif;
 }
 
-.email,
-.phone,
-.footer-phone {
-    color: var(--orange)
+.email-icon,
+.phone-icon {
+    padding-right: 0px;
+    height: 20px;
+    width: auto;
 }
 
 .email::after,
@@ -301,6 +307,7 @@ span,
 
 .footer-phone {
     text-decoration: none;
+    color: var(--orange)
 }
 
 .footer-phone::after {
