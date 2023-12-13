@@ -261,6 +261,7 @@ li {
 .phone {
     font-family: 'Saira', sans-serif;
     padding-right: 15px;
+    text-decoration: none;
 }
 
 .email-span,
@@ -268,7 +269,16 @@ li {
     color: var(--black);
 }
 
+.email,
+.phone,
+.footer-phone {
+    color: var(--orange)
+}
 
+.email::after,
+.phone::after {
+    color: var(--orange);
+}
 
 
 /*---- Footer ----*/
@@ -286,6 +296,14 @@ footer {
 
 span,
 .copyright{
+    color: var(--orange);
+}
+
+.footer-phone {
+    text-decoration: none;
+}
+
+.footer-phone::after {
     color: var(--orange);
 }
 
