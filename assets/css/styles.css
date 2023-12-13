@@ -258,7 +258,6 @@ li {
     font-size: 38px;
 }
 
-.address,
 .email,
 .phone {
     margin-right: 15px;
@@ -266,18 +265,21 @@ li {
     display: inline-block;
 }
 
+.contact-address,
 .email-span,
 .phone-span {
     color: var(--black);
     display: flex;
     align-items: center;
     font-family: 'Saira', sans-serif;
+    font-size: 14px;
+    margin: 3px 0;
 }
 
 .email-icon,
 .phone-icon {
     padding-right: 0px;
-    height: 20px;
+    height: 17px;
     width: auto;
 }
 
