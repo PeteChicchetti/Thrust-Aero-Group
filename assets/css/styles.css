@@ -102,7 +102,7 @@ li {
     font-family: 'Saira',serif;
     line-height: 1.2;
     font-size: 50px;
-    text-shadow: -1px 2px var(--black);
+    text-shadow: 1px 3px 4px var(--black);
 }
 
 /*---- Info and About Section ----*/
@@ -222,7 +222,7 @@ li {
     right: 0;
     padding: 8px;
     color: var(--white);
-    text-shadow: -1px 2px var(--black);
+    text-shadow: 1px 4px 2px var(--black);
     font-family: 'Saira',serif;
     font-size: 25px;
 }
