@@ -189,13 +189,9 @@ li {
 .box1-img,
 .box2-img,
 .box3-img,
+.box4-img,
 .certification {
     max-width: 50%;
-    height: auto;
-}
-
-.box4-img {
-    max-width: 40%;
     height: auto;
 }
 
@@ -361,16 +357,12 @@ span,
     .box1-img,
     .box2-img,
     .box3-img,
+    .box4-img,
     .certification {
         max-width: 90%;
         height: auto;
     }
-
-    .box4-img {
-        max-width: 60%;
-        height: auto;
-    }
-
+    
     .box1-text,
     .box2-text,
     .box3-text,
