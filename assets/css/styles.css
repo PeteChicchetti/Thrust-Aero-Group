@@ -309,6 +309,17 @@ li {
     color: var(--orange);
 }
 
+#topBtn {
+    background-color: transparent;
+    border: none;
+}
+
+#topArrow {
+    height: 48px;
+    width: auto;
+    cursor: pointer;
+}
+
 /*---- Footer ----*/
 
 footer {
@@ -362,7 +373,7 @@ span,
         max-width: 90%;
         height: auto;
     }
-    
+
     .box1-text,
     .box2-text,
     .box3-text,
