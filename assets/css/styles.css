@@ -309,16 +309,21 @@ li {
     color: var(--orange);
 }
 
-#topBtn {
-    background-color: transparent;
-    border: none;
-}
-
 #topArrow {
     height: 48px;
     width: auto;
     cursor: pointer;
 }
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    background-color: transparent;
+  }
 
 /*---- Footer ----*/
 
