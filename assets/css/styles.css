@@ -133,8 +133,7 @@ li {
     margin: 30px 0;
 }
 
-.planes-section,
-.info-box3 {
+.planes-section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -151,27 +150,33 @@ li {
     width: 100%;
 }
 
+.sales-section {
+    display: flex;
+    justify-content: space-evenly;
+}
 
-.planes-section-text,
-.parts-section-text,
-.box3-text,
+
+.planes-content,
+.parts-content,
+.engine-sales,
+.aircraft-sales,
 .box4-text {
     max-width: 500px;
     margin: 10px 20px;
 }
 
 
-.planes-section-text2 {
+.planes-content2 {
     margin: 10px 20px;
 }
 
-.planes-section-text2-mobile {
+.planes-content2-mobile {
     display: none;
 }
 
 .plane-img, 
 .map-img,
-.box3-img,
+.engine-img,
 .box4-img {
     margin: 10px 20px;
 }
@@ -210,7 +215,7 @@ li {
 
 .plane-img,
 .map-img,
-.box3-img,
+.engine-img,
 .box4-img,
 .certification {
     max-width: 50%;
@@ -404,7 +409,7 @@ span,
 
     .plane-img,
     .map-img,
-    .box3-img,
+    .engine-img,
     .box4-img,
     .certification {
         max-width: 60%;
@@ -412,9 +417,10 @@ span,
         margin: auto;
     }
 
-    .planes-section-text,
-    .parts-section-text,
-    .box3-text,
+    .planes-content,
+    .parts-content,
+    .engine-sales,
+    .aircraft-sales,
     .box4-text {
         max-width: 90%;
         margin: 10px 20px;
@@ -485,17 +491,16 @@ span,
     }
 
     .tagline {
-        font-size: 48px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .tagline {
         font-size: 35px;
     }
 
     .about-tagline {
         font-size: 22px;
+    }
+
+    .sales-section {
+        flex-wrap: wrap;
+        justify-content: start;
     }
 }
 
@@ -525,7 +530,7 @@ span,
 
     /* .planes-section,
     .parts-section,
-    .info-box3,
+    .sales-section,
     .info-box4 {
         margin: 25px 0;
     } */
@@ -647,15 +652,15 @@ span,
 @media screen and (max-width: 300px) {
     .plane-img,
     .map-img,
-    .box3-img,
+    .engine-img,
     .box4-img {
         max-width: 90%;
         height: auto;
     }
 
     .box1-text,
-    .parts-section-text,
-    .box3-text,
+    .parts-content,
+    .engine-sales,
     .box4-text {
         max-width: 90%;
         margin: 0;
