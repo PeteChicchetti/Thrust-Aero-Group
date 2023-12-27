@@ -133,7 +133,7 @@ li {
     margin: 30px 0;
 }
 
-.planes-section {
+.planes-section{
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
@@ -142,7 +142,7 @@ li {
 }
 
 .parts-section,
-.info-box4 {
+.repair-content {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -160,27 +160,15 @@ li {
 .parts-content,
 .engine-sales,
 .aircraft-sales,
-.box4-text {
+.repair-text {
     max-width: 500px;
     margin: 10px 20px;
 }
 
-
-.planes-content2 {
+.planes-content2,
+.repair-management {
     margin: 10px 20px;
 }
-
-.planes-content2-mobile {
-    display: none;
-}
-
-.plane-img, 
-.map-img,
-.engine-img,
-.box4-img {
-    margin: 10px 20px;
-}
-
 
 .cert-container {
     text-align: center;
@@ -216,10 +204,16 @@ li {
 .plane-img,
 .map-img,
 .engine-img,
-.box4-img,
-.certification {
+.inside-engine-img {
     max-width: 50%;
     height: auto;
+    margin: 10px 20px;
+}
+
+.certification {
+    max-width: 70%;
+    height: auto;
+    margin: 10px 20px;
 }
 
 .about-info {
@@ -402,7 +396,8 @@ span,
         padding: 0;
     }
 
-    .planes-section {
+    .planes-section,
+    .repair-content {
         justify-content: start;
         margin: 0;
     }
@@ -410,7 +405,7 @@ span,
     .plane-img,
     .map-img,
     .engine-img,
-    .box4-img,
+    .inside-engine-img,
     .certification {
         max-width: 60%;
         height: auto;
@@ -421,7 +416,8 @@ span,
     .parts-content,
     .engine-sales,
     .aircraft-sales,
-    .box4-text {
+    .repair-text,
+    .repair-management {
         max-width: 90%;
         margin: 10px 20px;
     }
@@ -531,7 +527,7 @@ span,
     /* .planes-section,
     .parts-section,
     .sales-section,
-    .info-box4 {
+    .repair-section {
         margin: 25px 0;
     } */
 
@@ -653,7 +649,7 @@ span,
     .plane-img,
     .map-img,
     .engine-img,
-    .box4-img {
+    .inside-engine-img {
         max-width: 90%;
         height: auto;
     }
