@@ -2,6 +2,7 @@
     --orange: #f95103;
     --black: #000;
     --white: #fff;
+    --grey: rgb(216, 216, 216)
 }
 
 *{
@@ -124,7 +125,7 @@ li {
 .section-g {
     display: flex;
     justify-content: center;
-    background-color: rgb(216, 216, 216);
+    background-color: var(--grey);
     padding: 40px 0;
 }
 
