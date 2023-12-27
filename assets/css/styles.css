@@ -123,12 +123,14 @@ li {
 .section-g {
     display: flex;
     justify-content: center;
-    background-color: grey;
+    background-color: rgb(216, 216, 216);
+    padding: 40px 0;
 }
 
 
 .container {
     max-width: 1200px;
+    margin: 30px 0;
 }
 
 .planes-section,
@@ -140,19 +142,18 @@ li {
     width: 100%;
 }
 
-.info-box2,
+.parts-section,
 .info-box4 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    margin: 60px 0;
 }
 
 
 .planes-section-text,
-.box2-text,
+.parts-section-text,
 .box3-text,
 .box4-text {
     max-width: 500px;
@@ -168,8 +169,8 @@ li {
     display: none;
 }
 
-.box1-img, 
-.box2-img,
+.plane-img, 
+.map-img,
 .box3-img,
 .box4-img {
     margin: 10px 20px;
@@ -207,8 +208,8 @@ li {
     margin-bottom: 5px;
 }
 
-.box1-img,
-.box2-img,
+.plane-img,
+.map-img,
 .box3-img,
 .box4-img,
 .certification {
@@ -391,13 +392,18 @@ span,
 /*---- Media ----*/
 
 @media screen and (max-width: 1185px) {
+    .section-w,
+    .section-g {
+        padding: 0;
+    }
+
     .planes-section {
         justify-content: start;
         margin: 0;
     }
 
-    .box1-img,
-    .box2-img,
+    .plane-img,
+    .map-img,
     .box3-img,
     .box4-img,
     .certification {
@@ -407,7 +413,7 @@ span,
     }
 
     .planes-section-text,
-    .box2-text,
+    .parts-section-text,
     .box3-text,
     .box4-text {
         max-width: 90%;
@@ -518,7 +524,7 @@ span,
     }
 
     /* .planes-section,
-    .info-box2,
+    .parts-section,
     .info-box3,
     .info-box4 {
         margin: 25px 0;
@@ -639,8 +645,8 @@ span,
 }
 
 @media screen and (max-width: 300px) {
-    .box1-img,
-    .box2-img,
+    .plane-img,
+    .map-img,
     .box3-img,
     .box4-img {
         max-width: 90%;
@@ -648,7 +654,7 @@ span,
     }
 
     .box1-text,
-    .box2-text,
+    .parts-section-text,
     .box3-text,
     .box4-text {
         max-width: 90%;
