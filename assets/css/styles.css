@@ -114,14 +114,30 @@ li {
     margin: auto;
 }
 
-.info-box1,
+.section-w {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.section-g {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+
+.planes-section,
 .info-box3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap-reverse;
     align-items: center;
     width: 100%;
-    margin: 60px 0;
 }
 
 .info-box2,
@@ -135,12 +151,21 @@ li {
 }
 
 
-.box1-text,
+.planes-section-text,
 .box2-text,
 .box3-text,
 .box4-text {
     max-width: 500px;
     margin: 10px 20px;
+}
+
+
+.planes-section-text2 {
+    margin: 10px 20px;
+}
+
+.planes-section-text2-mobile {
+    display: none;
 }
 
 .box1-img, 
@@ -154,10 +179,6 @@ li {
 .cert-container {
     text-align: center;
     padding: 20px 0;
-}
-
-.list-title {
-    font-weight: 700;
 }
 
 .engine-list {
@@ -370,16 +391,22 @@ span,
 /*---- Media ----*/
 
 @media screen and (max-width: 1185px) {
+    .planes-section {
+        justify-content: start;
+        margin: 0;
+    }
+
     .box1-img,
     .box2-img,
     .box3-img,
     .box4-img,
     .certification {
-        max-width: 90%;
+        max-width: 60%;
         height: auto;
+        margin: auto;
     }
 
-    .box1-text,
+    .planes-section-text,
     .box2-text,
     .box3-text,
     .box4-text {
@@ -490,12 +517,12 @@ span,
         width: 13px;
     }
 
-    .info-box1,
+    /* .planes-section,
     .info-box2,
     .info-box3,
     .info-box4 {
         margin: 25px 0;
-    }
+    } */
 
     .hero-content {
         padding-right: 10px;
@@ -633,3 +660,10 @@ span,
     }
 
 }
+
+
+
+
+
+
+
