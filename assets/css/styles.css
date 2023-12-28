@@ -154,6 +154,8 @@ li {
 .sales-section {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 .planes-content,
@@ -344,7 +346,7 @@ li {
     z-index: 99;
     border: none;
     background-color: transparent;
-  }
+}
 
 /*---- Footer ----*/
 
@@ -401,7 +403,9 @@ span,
     }
 
     .planes-section,
-    .repair-content {
+    .repair-content,
+    .engine-content,
+    .aircraft-content {
         justify-content: start;
         margin: 0;
     }
@@ -499,10 +503,7 @@ span,
         font-size: 22px;
     }
 
-    .sales-section {
-        flex-wrap: wrap;
-        justify-content: start;
-    }
+
 }
 
 @media screen and (max-width: 650px) {
@@ -514,27 +515,27 @@ span,
 
 @media screen and (max-width: 540px) {
     p {
-        font-size: 18px;
+        font-size: 14px;
     }
-
+    
+    h2,
+    h3 {
+        font-size: 24px;
+    }
+    
     ul {
         margin: 10px 0 10px  30px;
     }
-    
+
     li {
-        font-size: 16px;
+        font-size: 12px;
+        font-weight: 600;
     }
 
     .plane-icon {
         width: 13px;
+        height: auto;
     }
-
-    /* .planes-section,
-    .parts-section,
-    .sales-section,
-    .repair-section {
-        margin: 25px 0;
-    } */
 
     .hero-content {
         padding-right: 10px;
@@ -610,6 +611,12 @@ span,
 
     .florida-photos {
         margin: 10px 8px;
+    }
+
+    #topArrow {
+        height: 40px;
+        width: auto;
+        cursor: pointer;
     }
 }
 
