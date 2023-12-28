@@ -13,7 +13,7 @@
 }
 
 p {
-    font-size: 21px;
+    font-size: 18px;
     padding: 10px 0;
     line-height: 1.2;
     font-family: 'Saira', sans-serif;
@@ -24,7 +24,7 @@ h3 {
     /* padding-left: 10px; */
     margin-bottom: -10px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 1;
     margin-bottom: 5px;
 }
@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 3px;
     display: flex;
@@ -135,9 +135,9 @@ li {
     margin: 30px 0;
 }
 
-.planes-section{
+.planes-section {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap-reverse;
     align-items: center;
     width: 100%;
@@ -146,22 +146,20 @@ li {
 .parts-section,
 .repair-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     width: 100%;
 }
 
 .sales-section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
-
 
 .planes-content,
 .parts-content,
-.engine-sales,
-.aircraft-sales,
+.engine-content,
+.aircraft-content,
 .repair-text {
     max-width: 500px;
     margin: 10px 20px;
@@ -190,12 +188,12 @@ li {
 }
 
 .plane-icon {
-    height: 20px;
+    height: 16px;
     width: auto;
 }
 
 .engine-icon {
-    height: 30px;
+    height: 20px;
     width: auto;
 }
 
