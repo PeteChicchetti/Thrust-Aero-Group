@@ -447,17 +447,18 @@ span,
     .navbar-menu {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(2, 100px);
+        grid-template-rows: repeat(3, 75px);
         position: absolute;
         width: 100%;
         top: -1000px;
+        padding-right: 0;
     }
 
     .navbar-menu.active {
         top: 100%;
         opacity: 1;
         z-index: 99;
-        height: 24vh;
+        height: 29vh;
         font-size: 1.5rem;
         background: var(--black);
     }
