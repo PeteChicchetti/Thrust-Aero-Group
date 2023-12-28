@@ -144,8 +144,7 @@ li {
 }
 
 .parts-section,
-.repair-section,
-.sales-section {
+.repair-section {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -154,11 +153,24 @@ li {
 
 .planes-content,
 .parts-content,
-.engine-content,
-.aircraft-content,
 .repair-text {
     max-width: 500px;
     margin: 10px 20px;
+}
+
+.engine-content {
+    max-width: 600px;
+    margin: 10px 20px;
+}
+
+.aircraft-content {
+    max-width: 500px;
+    margin: 10px 20px;
+}
+
+.sales-section {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .planes-content2,
@@ -416,8 +428,8 @@ span,
 
     .planes-content,
     .parts-content,
-    .engine-sales,
-    .aircraft-sales,
+    .engine-content,
+    .aircraft-content,
     .repair-text,
     .repair-management {
         max-width: 90%;
@@ -662,7 +674,7 @@ span,
 
     .box1-text,
     .parts-content,
-    .engine-sales,
+    .engine-content,
     .box4-text {
         max-width: 90%;
         margin: 0;
