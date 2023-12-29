@@ -111,7 +111,38 @@ li {
     text-shadow: 1px 3px 4px var(--black);
 }
 
+
 /*---- Info and About Section ----*/
+
+.about {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
+    min-height: calc(100vh - 130px);
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+}
+
+.about-content {
+    display: flex;
+    margin: 80px 0;
+}
+
+.about-title {
+    width: 600px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.about-info {
+    max-width: 600px;
+    margin: 100px 20px 0 20px;
+}
+
+
+
+
 
 .info-container,
 .about-container,
