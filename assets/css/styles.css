@@ -392,12 +392,17 @@ span,
     color: var(--white);
     font-family: 'Saira', sans-serif;
 }
+
+.about-link,
+.contact-link,
 .site-credit {
     font-family: 'Saira', sans-serif;
     text-decoration: none;
     color: var(--orange);
 }
 
+.about-link::after,
+.contact-link::after,
 .site-credit::after {
     color: var(--orange);
 } 
