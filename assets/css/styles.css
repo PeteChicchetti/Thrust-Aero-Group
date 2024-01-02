@@ -115,7 +115,7 @@ li {
 /*---- Info and About Section ----*/
 
 .about {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
     min-height: calc(100vh - 130px);
     background-position: center;
     background-size: cover;
@@ -124,7 +124,6 @@ li {
 
 .about-content {
     display: flex;
-    flex-wrap: wrap;
     margin: 80px 0;
     justify-content: center;
 }
@@ -561,6 +560,8 @@ span,
 
     .about-info {
         margin: 0 10px;
+        font-weight: 800;
+        max-width: 600px;
     }
 
     .tagline {
