@@ -549,8 +549,9 @@ span,
     }
 
     .about-title {
-        margin: 0 auto;
+        margin: 0 10px;
         width: auto;
+        text-align: left;
     }
 
     .about-content {
@@ -562,6 +563,7 @@ span,
         margin: 0 10px;
         font-weight: 800;
         max-width: 600px;
+        font-size: 13px;
     }
 
     .tagline {
