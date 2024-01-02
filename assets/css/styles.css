@@ -124,24 +124,24 @@ li {
 
 .about-content {
     display: flex;
+    flex-wrap: wrap;
     margin: 80px 0;
+    justify-content: center;
 }
 
 .about-title {
-    width: 600px;
+    width: 300px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 80px;
     text-align: center;
-    margin: 10px 20px;
+    margin: 10px 10px;
 }
 
 .about-info {
-    max-width: 600px;
+    max-width: 400px;
     margin: 100px 20px 0 20px;
+    font-size: 16px;
 }
-
-
-
 
 
 .info-container,
@@ -544,6 +544,25 @@ span,
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .about {
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-title {
+        margin: 0 auto;
+        width: auto;
+    }
+
+    .about-content {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .about-info {
+        margin: 0 10px;
+    }
+
     .tagline {
         font-size: 35px;
     }
@@ -588,6 +607,10 @@ span,
 
     .hero-content {
         padding-right: 10px;
+    }
+
+    .about-title {
+        font-size: 60px;
     }
 
     .tagline {
@@ -674,6 +697,11 @@ span,
         height: 60px;
         width: 145px;
     }
+
+    .about-title {
+        font-size: 40px;
+    }
+
     .tagline {
         font-size:22px;
     }
