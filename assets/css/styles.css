@@ -176,8 +176,6 @@ li {
 .planes-section {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
-    align-items: center;
     width: 100%;
 }
 
@@ -450,7 +448,10 @@ span,
         padding: 0;
     }
 
-    .planes-section,
+    .planes-section{
+        flex-direction: column-reverse;
+    }
+    
     .repair-section,
     .engine-content,
     .aircraft-content {
@@ -478,10 +479,6 @@ span,
         margin: 10px 20px;
     }
     
-    .certification {
-        max-width: 90%;
-        margin: 10px 0;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -736,33 +733,3 @@ span,
     }
 
 }
-
-@media screen and (max-width: 300px) {
-    .plane-img,
-    .map-img,
-    .engine-img,
-    .inside-engine-img {
-        max-width: 90%;
-        height: auto;
-    }
-
-    .box1-text,
-    .parts-content,
-    .engine-content,
-    .box4-text {
-        max-width: 90%;
-        margin: 0;
-    }
-
-    .about-tagline {
-        font-size: 9px;
-    }
-
-}
-
-
-
-
-
-
-
