@@ -114,37 +114,9 @@ li {
 
 /*---- Info and About Section ----*/
 
-.about {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
-    min-height: calc(100vh - 130px);
-    background-position: center;
-    background-size: cover;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-}
-
-.about-content {
-    display: flex;
-    margin: 80px 0;
-    justify-content: center;
-}
-
-.about-title {
-    width: 300px;
-    font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 80px;
-    text-align: center;
-    margin: 10px 10px;
-}
-
-.about-info {
-    max-width: 400px;
-    margin: 100px 20px 0 20px;
-    font-size: 16px;
-}
-
-
 .info-container,
 .about-container,
+.contact-container,
 .credit-container {
     max-width: 1200px;
     margin: auto;
@@ -260,10 +232,33 @@ li {
     margin: 10px 20px;
 }
 
-.about-info {
-    display: flex;
-    flex-direction: column;
+.about {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
+    min-height: calc(100vh - 130px);
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+}
 
+.about-content,
+.contact-content {
+    display: flex;
+    margin: 80px 0;
+    justify-content: center;
+}
+
+.about-title {
+    width: 300px;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.about-info {
+    max-width: 450px;
+    margin: 100px 20px 0 20px;
+    font-size: 16px;
 }
 
 .about-banner {
@@ -348,6 +343,18 @@ li {
 .phone::after {
     color: var(--orange);
 }
+
+
+/*---- Contact ----*/
+
+.contact {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)),url('../images/contact-bg.jpeg');
+    min-height: calc(100vh - 130px);
+    background-position: right;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+}
+
 
 /*---- Credits ----*/
 .credit-info {
@@ -478,7 +485,7 @@ span,
         max-width: 90%;
         margin: 10px 20px;
     }
-    
+
 }
 
 @media screen and (max-width: 768px) {
