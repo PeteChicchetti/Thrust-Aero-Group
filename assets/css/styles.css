@@ -466,7 +466,7 @@ span,
     .certification {
         max-width: 60%;
         height: auto;
-        margin: auto;
+        margin: 0 auto 20px auto;
     }
 
     .planes-content,
@@ -547,7 +547,6 @@ span,
     .certification {
         max-width: 80%;
         height: auto;
-        margin: auto;
     }
 
     .about {
