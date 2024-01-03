@@ -540,6 +540,16 @@ span,
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    .plane-img,
+    .map-img,
+    .engine-img,
+    .inside-engine-img,
+    .certification {
+        max-width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
     .about {
         display: flex;
         justify-content: center;
@@ -608,6 +618,8 @@ span,
     .hero-content {
         padding-right: 10px;
     }
+
+    
 
     .about-title {
         font-size: 60px;
