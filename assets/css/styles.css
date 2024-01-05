@@ -308,9 +308,17 @@ li {
 
 .contact-title {
     font-family: 'Saira Extra Condensed', sans-serif;
-    border-bottom: 2px solid var(--black);
     margin-bottom: 5px;
     font-size: 38px;
+}
+
+.contact-content {
+    margin: 10px auto;
+    max-width: 800px;
+}
+
+.city {
+    color: var(--black);
 }
 
 .email,
@@ -627,7 +635,9 @@ span,
         padding-right: 10px;
     }
 
-    
+    .city {
+        display: block;
+    }
 
     .about-title {
         font-size: 60px;
