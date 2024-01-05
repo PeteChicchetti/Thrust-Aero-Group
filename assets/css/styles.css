@@ -25,7 +25,6 @@ p {
 
 h2,
 h3 {
-    /* padding-left: 10px; */
     margin-bottom: -10px;
     font-family: 'Saira Extra Condensed', sans-serif;
     font-size: 30px;
@@ -48,7 +47,6 @@ li {
 }
 
 /*---- Navbar ----*/
-
 .navbar {
     background: var(--black);
     height: 80px;
@@ -62,10 +60,11 @@ li {
 .navbar-logo {
     height: 72px; 
     width: 200px;
+    margin-left: -15px;
 }
 
 .navbar-menu {
-    padding-right: 20px;
+    margin-right: 15px;
 }
 
 .navbar-link {
@@ -111,17 +110,41 @@ li {
     text-shadow: 1px 3px 4px var(--black);
 }
 
-
-/*---- Info and About Section ----*/
-
+/*---- All Page Containers and Shared styling ----*/
 .info-container,
-.about-container,
-.contact-container,
 .credit-container {
     max-width: 1200px;
     margin: auto;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 30px 0;
+}
+
+.plane-icon,
+.engine-icon,
+.email-icon,
+.phone-icon {
+    filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
+    margin-right: 5px;
+}
+
+.about-link,
+.contact-link,
+.site-credit {
+    font-family: 'Saira', sans-serif;
+    text-decoration: none;
+    color: var(--orange);
+}
+
+.about-link::after,
+.contact-link::after,
+.site-credit::after {
+    color: var(--orange);
+}
+
+/*---- Homepage ----*/
 .section-w {
     display: flex;
     justify-content: center;
@@ -133,12 +156,6 @@ li {
     justify-content: center;
     background-color: var(--grey);
     padding: 40px 0;
-}
-
-
-.container {
-    max-width: 1200px;
-    margin: 30px 0;
 }
 
 .intro-section {
@@ -195,14 +212,6 @@ li {
     margin-bottom: 40px;
 }
 
-.plane-icon,
-.engine-icon,
-.email-icon,
-.phone-icon {
-    filter: invert(42%) sepia(53%) saturate(4271%) hue-rotate(359deg) brightness(98%) contrast(100%);
-    margin-right: 5px;
-}
-
 .plane-icon {
     height: 16px;
     width: auto;
@@ -232,6 +241,8 @@ li {
     margin: 10px 20px;
 }
 
+
+/*---- About ----*/
 .about {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)),url('../images/about-bg.jpeg');
     min-height: calc(100vh - 130px);
@@ -260,8 +271,19 @@ li {
     font-size: 16px;
 }
 
-.contact-container {
+/*---- Contact ----*/
+
+.contact {
+    background: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)),url('../images/white-planes.jpeg');
+    min-height: calc(100vh - 130px);
+    background-position: right;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+}
+
+.contact-content {
     margin: 10px 10px 30px 10px;
+
 }
 
 .contact-title {
@@ -270,8 +292,8 @@ li {
     font-size: 38px;
 }
 
-.contact-content {
-    margin: 10px auto;
+.contact-info {
+    margin: 30px auto;
     max-width: 800px;
 }
 
@@ -309,26 +331,14 @@ li {
     color: var(--orange);
 }
 
-
-/*---- Contact ----*/
-
-.contact {
-    background: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)),url('../images/white-planes.jpeg');
-    min-height: calc(100vh - 130px);
-    background-position: right;
-    background-size: cover;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-}
-
-
 /*---- Credits ----*/
-.credit-info {
+.credit-content {
     margin: 40px 20px;
     display: flex;
     flex-direction: column;
 }
 
-.credit-content {
+.credit-info {
     max-width: 600px;
     margin: auto;
 }
@@ -373,7 +383,6 @@ footer {
     height: 50px;
 }
 
-.address,
 .copyright {
     font-size: 14px;
 }
@@ -387,21 +396,6 @@ span,
     color: var(--white);
     font-family: 'Saira', sans-serif;
 }
-
-.about-link,
-.contact-link,
-.site-credit {
-    font-family: 'Saira', sans-serif;
-    text-decoration: none;
-    color: var(--orange);
-}
-
-.about-link::after,
-.contact-link::after,
-.site-credit::after {
-    color: var(--orange);
-} 
-
 
 /*---- Media ----*/
 
