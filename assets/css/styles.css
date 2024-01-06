@@ -332,6 +332,10 @@ li {
 }
 
 /*---- Credits ----*/
+.credit-container {
+    height: calc(100vh - 170px);
+}
+
 .credit-content {
     margin: 40px 20px;
     display: flex;
@@ -340,7 +344,7 @@ li {
 
 .credit-info {
     max-width: 600px;
-    margin: auto;
+    margin: 30px auto;
 }
 
 .name-credit,
