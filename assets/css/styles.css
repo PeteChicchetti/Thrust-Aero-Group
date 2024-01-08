@@ -45,6 +45,7 @@ li {
     align-items: center;
 }
 
+
 /*---- Navbar ----*/
 .navbar {
     background: var(--black);
@@ -77,9 +78,7 @@ li {
 }
 
 
-
 /*---- Hero ----*/
-
 .hero {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),url('../images/plane-sunset.jpg');
     height: 100vh;
@@ -107,6 +106,7 @@ li {
     font-size: 50px;
     text-shadow: 1px 3px 4px var(--black);
 }
+
 
 /*---- All Page Containers and Shared styling ----*/
 .info-container,
@@ -140,6 +140,7 @@ li {
 .site-credit::after {
     color: var(--orange);
 }
+
 
 /*---- Homepage ----*/
 .section-w {
@@ -268,8 +269,8 @@ li {
     font-size: 16px;
 }
 
-/*---- Contact ----*/
 
+/*---- Contact ----*/
 .contact {
     background: linear-gradient(to left, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.1)),url('../images/white-planes.jpeg');
     min-height: calc(100vh - 130px);
@@ -327,6 +328,7 @@ li {
     color: var(--orange);
 }
 
+
 /*---- Credits ----*/
 .credit-container {
     height: calc(100vh - 170px);
@@ -370,8 +372,8 @@ li {
     background-color: transparent;
 }
 
-/*---- Footer ----*/
 
+/*---- Footer ----*/
 footer {
     display: flex;
     justify-content: center;
@@ -395,8 +397,8 @@ span,
     color: var(--white);
 }
 
-/*---- Media ----*/
 
+/*---- Media ----*/
 @media screen and (max-width: 1185px) {
     .section-w,
     .section-g {
