@@ -285,8 +285,7 @@ li {
 
 .contact-title {
     font-family: 'Saira Extra Condensed', sans-serif;
-    margin-bottom: 5px;
-    font-size: 38px;
+    font-size: 70px;
 }
 
 .contact-info {
@@ -534,6 +533,11 @@ span,
         max-width: 600px;
         font-size: 13px;
     }
+
+    .contact-title {
+        font-size: 38px;
+    }
+
 
     .tagline {
         font-size: 35px;
