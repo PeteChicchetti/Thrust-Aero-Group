@@ -251,21 +251,20 @@ li {
 
 .about-content {
     display: flex;
-    margin: 80px 0;
     justify-content: center;
 }
 
 .about-title {
     width: 300px;
     font-family: 'Saira Extra Condensed', sans-serif;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
-    margin: 10px 10px;
+    margin: 10px 40px 10px 10px;
 }
 
 .about-info {
     max-width: 450px;
-    margin: 100px 20px 0 20px;
+    margin: 80px 20px 0 20px;
     font-size: 16px;
 }
 
@@ -519,9 +518,10 @@ span,
     }
 
     .about-title {
-        margin: 0 10px;
+        margin: 0 10px 30px 10px;
         width: auto;
         text-align: left;
+        font-size: 45px;
     }
 
     .about-content {
@@ -573,7 +573,7 @@ span,
     }
 
     .about-title {
-        font-size: 60px;
+        font-size: 38px;
     }
 
     .tagline {
@@ -625,10 +625,6 @@ span,
 
     .navbar-menu.active {
         height: 40vh;
-    }
-
-    .about-title {
-        font-size: 40px;
     }
 
     .tagline {
