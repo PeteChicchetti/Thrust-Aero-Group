@@ -4,7 +4,7 @@
           
   ## Description
 
-  This website is a front end only design, developed for the Thrust Aero Group.
+  This website is a front end only design as requested by Thrust Aero Group. The client sought to refresh their existing website, and this project was carried out in collaboration with Jason Black, who played a role in the redesign process.
           
   ## Table of Contents
 
@@ -14,7 +14,28 @@
           
   ## Images
 
-  Coming soon...
+  <strong>Thrust Aero Group | Homepage</strong>
+
+  ![Thrust Aero Group homepage](./assets/images/thrustaerogroup.com_.png)
+
+  <br/>
+  <br/>
+  <br/>
+
+
+  <strong>Thrust Aero Group | About Us</strong>
+
+  ![Thrust Aero Group about](./assets/images/thrustaerogroup.com_about.html.png)
+
+  <br/>
+  <br/>
+  <br/>
+
+
+  <strong>Thrust Aero Group | Contact Us</strong>
+
+  ![Thrust Aero Group contact](./assets/images/thrustaerogroup.com_contact.html.png)
+
 
           
   ## License
