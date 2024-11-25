@@ -468,7 +468,6 @@ span,
         top: 100%;
         opacity: 1;
         z-index: 99;
-        height: 30vh;
         font-size: 1.5rem;
         background: var(--black);
     }
@@ -635,9 +634,7 @@ span,
         width: 145px;
     }
 
-    .navbar-menu.active {
-        height: 40vh;
-    }
+
 
     .tagline {
         font-size:22px;
