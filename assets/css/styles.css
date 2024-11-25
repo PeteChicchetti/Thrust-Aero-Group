@@ -109,7 +109,8 @@ li {
 
 /*---- All Page Containers and Shared styling ----*/
 .info-container,
-.credit-container {
+.credit-container,
+.isolators-container {
     max-width: 1200px;
     margin: auto;
 }
@@ -268,6 +269,20 @@ li {
 }
 
 /*---- Isolators ----*/
+.isolators-container {
+    height: calc(100vh - 170px);
+}
+
+.isolators-content {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.isolators-section {
+    margin: 10px 20px;
+}
+
 .isolators-title {
     font-family: 'Saira', sans-serif;
     font-size: 18px;
@@ -275,11 +290,13 @@ li {
 }
 
 .isolators-img{
-    max-width: 50%;
-    height: auto;
+    max-height: 400px;
+    width: auto;
     margin-right: 20px;
     float: left;
 }
+
+
 
 /*---- Contact ----*/
 .contact {
@@ -568,7 +585,7 @@ span,
         max-width: 90%;
         display: block;
         float: none;
-        margin: 20px auto 20px auto;
+        margin: -10px auto 20px auto;
     }
 
     .isolators-plane-list {
