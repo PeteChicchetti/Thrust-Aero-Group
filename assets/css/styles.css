@@ -275,8 +275,6 @@ li {
 
 .isolators-content {
     margin: 40px 20px;
-    display: flex;
-    flex-direction: column;
 }
 
 .isolators-section {
@@ -486,7 +484,7 @@ span,
     .navbar-menu {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 85px);
+        grid-template-rows: repeat(4, 85px);
         position: absolute;
         width: 100%;
         top: -1000px;
@@ -581,6 +579,10 @@ span,
 }
 
 @media screen and (max-width: 600px) {
+    .isolators-container {
+        height: auto;
+    }
+
     .isolators-img{
         max-width: 90%;
         display: block;
